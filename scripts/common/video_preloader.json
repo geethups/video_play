@@ -1,0 +1,30 @@
+{
+    "files": [
+    {
+        "type": "VIDEO", 
+        "id":"video",
+        "sources": {
+            "mpeg":{
+                "source": "videos/movie_converted.mpg",
+                "size": 1019904
+            },
+            "m4v":{
+                "source": "videos/movie_converted.mp4",
+                "size": 918103
+            },
+            "webm": {
+                "source": "videos/wi_section1_768.webm",
+                "size": 7511421
+            },
+            "ogg":{
+                "source": "videos/movie.ogg",
+                "size": 493109
+            },
+            "ogg":{
+                "source": "videos/movie.ogg",
+                "size": 493109
+            }
+        }
+    }        
+    ]
+}

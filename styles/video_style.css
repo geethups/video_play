@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+    margin:0;
+    padding:0;}
+#outer_wrapper{
+    margin:0 auto;
+    width:1024px;
+    height:750px;
+    background-color:#eaeaeae;}
+header{
+    height:130px;
+    background-color:#333;}
+section{
+    height:844px;
+    background-color:#CCC;}
+footer{
+    height:50px;
+    background-color:#666;}
+
+/*html5 loader css starts*/
+#html5Loader{
+    top:0;
+    left:0;
+    background-color:black;
+    background-color:rgba(0,0,0,0.85);
+    position:fixed;
+    z-index:1200;
+}

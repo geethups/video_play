@@ -1,0 +1,252 @@
+
+/*
+css for title bar and bottom bar.
+*/
+/*@font-face {
+    font-family: "titleFont";
+    src: url(fonts/TradeGothicLTStd-Cn18.otf) format("truetype");
+}
+
+#title_bar {
+    width: 1280px;
+    height: 40px;
+    position: absolute;
+    top: 0px;
+    background: url("images/common/title_bar.png");
+    background-repeat: repeat-x;
+    z-index:1250;
+    font-family: "titleFont";
+}
+
+#title_bar button#question_mark_button {
+    background: url('images/common/sprite.png') no-repeat transparent;
+    background-position: -993px -12px;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 1195px;
+    top: 4px;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    border: none;
+}
+
+#title_bar button#close_button {
+    background: url('images/common/sprite.png') no-repeat transparent;
+    background-position: -762px -12px;
+    z-index: 1250;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 1231px;
+    top: 6px;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    border: none;
+}*/
+
+#title_bar section {
+    width: 1280px;
+    height: 40px;
+    color: #FFFFFF;
+    font-family: monospace;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    font-family: "titleFont";
+    letter-spacing: 1.5px;
+    padding-top: 0px;
+    letter-spacing: 3px;
+}
+/*
+#action_bar_bottom {
+    background: url('images/common/sprite.png') no-repeat transparent;
+    background-position: -24px 0px;
+    background-repeat: no-repeat;
+    background-origin: padding-box;
+    background-attachment: scroll;
+    background-clip: border-box;
+    position: absolute;
+    left: 775px;
+    top: 666px;
+    cursor: pointer;
+    width: 505px;
+    height: 72px;
+    border: none;
+    z-index: 1250;
+}
+*/
+#action_bar_bottom img#home_button {
+    position: absolute;
+    left: 240px;
+    top: 21px;
+    cursor: pointer;
+}
+
+#action_bar_bottom img#back_button {
+    position: absolute;
+    left: 291px;
+    top: 21px;
+    cursor: pointer;
+}
+
+#action_bar_bottom img#reload_button {
+    position: absolute;
+    left: 392px;
+    top: 21px;
+    cursor: pointer;
+}
+
+#action_bar_bottom img#forward_button {
+    position: absolute;
+    top: 21px;
+    left: 443px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+/* action bar buttons */
+/*
+#action_bar_bottom button#speaker_image {
+    position: absolute;
+    border: none;
+    height: 30px;
+    width: 30px;
+    background: url('images/common/sprite.png');
+    background-repeat: no-repeat;
+    background-position: -283px -73px;
+    left: 90px;
+    top: 26px;
+    cursor: pointer;
+    opacity: 0.4;
+}
+
+#action_bar_bottom button#forward_button{
+    background: url('images/common/sprite.png') no-repeat transparent;
+    background-position: -1211px -12px;
+    cursor: pointer;
+    border: none;
+    top: 21px;
+    left: 443px;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+}
+
+#action_bar_bottom button#back_button{
+    background: url('images/common/sprite.png') no-repeat transparent;
+    background-position: -709px -10px;
+    cursor: pointer;
+    border: none;
+    height: 30px;
+    width: 30px;
+    left: 291px;
+    top: 21px;
+    position: absolute;
+}
+
+#action_bar_bottom button#play_button{
+    background: url('images/common/sprite.png') -821px -12px;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    height: 30px;
+    width: 30px;
+    left: 341px;
+    top: 21px;
+    position: absolute;
+}
+
+#action_bar_bottom button#reload_button{
+    background: url('images/common/sprite.png') -1128px -10px no-repeat transparent;
+    cursor: pointer;
+    border: none;
+    height: 30px;
+    width: 30px;
+    position: absolute;  
+    left: 392px;
+    top: 21px;
+}
+
+#action_bar_bottom button#home_button{
+    background: url('images/common/sprite.png') no-repeat transparent;
+    background-position: -1059px -7px;
+    cursor: pointer;
+    border: none;
+    height: 30px;
+    width: 30px;
+    position: absolute;  
+    left: 240px;
+    top: 21px;
+}
+
+#action_bar_bottom button#settings_button{
+    background-image: url('images/common/sprite.png');
+    background-repeat: no-repeat;
+    background-position: -931px -7px;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    left: 138px;
+    top: 22px;
+}
+
+#action_bar_bottom button#chat_button{
+    background-image: url('images/common/sprite.png');
+    background-repeat: no-repeat;
+    background-position: -651px -11px;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    height: 30px;
+    width: 30px;
+    position: absolute;  
+    left: 42px;
+    top: 23px;
+}*/
+/*narration container*/
+/*
+#action_bar_bottom .narration{
+    height: 80px;
+    width: 650px;    
+    position: absolute;
+    top: 6px;
+    left: -644px;
+    overflow: hidden;
+    display: none;
+    background: url('images/common/sprite.png') no-repeat transparent;
+    background-position: -636px -51px;
+}
+#action_bar_bottom .narration p{
+    overflow-x: hidden;
+    overflow-y: scroll;
+    margin: 10px;
+    line-height: 1.5;
+    width: 620px;
+    height: 50px;
+    color: #fff;
+}
+#action_bar_bottom .narration ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+#action_bar_bottom .narration ::-webkit-scrollbar-button:start:decrement,
+#action_bar_bottom .narration ::-webkit-scrollbar-button:end:increment  {
+    display: none;
+}
+*/
+.narration ::-webkit-scrollbar-track-piece  {
+    background-color: #3b3b3b;
+    -webkit-border-radius: 6px;
+}
+
+.narration ::-webkit-scrollbar-thumb:vertical {
+    -webkit-border-radius: 6px;
+    background: #666 url('images/common/scrollbar_thumb_bg.png') no-repeat center;
+}
+/*end of narration container*/
